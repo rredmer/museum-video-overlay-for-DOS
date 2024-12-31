@@ -1,0 +1,4 @@
+SET INCLUDE=J:\DEVTOOLS\MSC800\INCLUDE
+SET LIB=J:\DEVTOOLS\MSC800\LIB
+CL /c /W4 /AL /Zi /Od /Gs vset.c
+link /CO /STACK:8192 vset.obj,,,lvide lsvw;
